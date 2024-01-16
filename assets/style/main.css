@@ -140,4 +140,12 @@ hr#line {
 .label#mobile {
   background-color: #f29e33;
 }
+
+.label#web {
+  background-color: #d863a1;
+}
+
+.label#sales {
+  background-color: #b0c926;
+}
 /* /label */
