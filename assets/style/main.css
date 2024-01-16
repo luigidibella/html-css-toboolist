@@ -17,7 +17,7 @@ header {
   margin-bottom: 60px;
 }
 
-main div{
+main div {
   margin: 30px;
 }
 
@@ -37,13 +37,7 @@ header .logo img {
 }
 /* /header */
 
-/* main */
-
-hr#line {
-  border: 2px solid #f6f8f9;
-  margin-left: -100px;
-  margin-bottom: 40px;
-}
+/* button */
 
 .container {
   max-width: 1000px;
@@ -83,4 +77,55 @@ hr#line {
   border-style: solid;
 }
 
-/* /main */
+hr#line {
+  border: 2px solid #f6f8f9;
+  margin-left: -100px;
+  margin-bottom: 40px;
+}
+
+/* /button */
+
+/* task */
+
+.circle {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px;
+  border-style: solid;
+  font-size: 10px;
+  margin-right: 10px;
+  margin: 15 px;
+}
+
+.circle#check {
+  border-color: green;
+  color: green;
+}
+
+.circle#cross {
+  border-color: red;
+  color: red;
+}
+
+/* /task */
+
+/* label */
+.label {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 80px;
+  padding: 6px;
+  margin: 5px;
+  border-radius: 13px;
+  font-size: 14px;
+  font-weight: 600px;
+}
+
+.label#editorial {
+  background-color: #45abea;
+}
+/* /label */
