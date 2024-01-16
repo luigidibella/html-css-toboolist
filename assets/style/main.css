@@ -3,3 +3,25 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f8f9;
+}
+
+.logo img {
+  vertical-align: bottom;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.logo span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  height: 80px;
+}
