@@ -128,4 +128,16 @@ hr#line {
 .label#editorial {
   background-color: #45abea;
 }
+
+.label#goals {
+  background-color: #9c72e4;
+}
+
+.label#recruting {
+  background-color: #5cbda4;
+}
+
+.label#mobile {
+  background-color: #f29e33;
+}
 /* /label */
