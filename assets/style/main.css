@@ -11,6 +11,8 @@ body {
   background-color: #f6f8f9;
 }
 
+
+
 header {
   height: 80px;
   background-color: white;
@@ -19,6 +21,10 @@ header {
 
 main div {
   margin: 30px;
+}
+
+main span {
+  margin-top: 15px;
 }
 
 /* header */
