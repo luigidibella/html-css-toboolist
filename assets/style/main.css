@@ -11,13 +11,17 @@ body {
   background-color: #f6f8f9;
 }
 
-/* header */
-
 header {
   height: 80px;
   background-color: white;
   margin-bottom: 60px;
 }
+
+main div{
+  margin: 30px;
+}
+
+/* header */
 
 h1 {
   display: inline-block;
@@ -32,3 +36,51 @@ header .logo img {
   margin-left: 20px;
 }
 /* /header */
+
+/* main */
+
+hr#line {
+  border: 2px solid #f6f8f9;
+  margin-left: -100px;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  border: 10px;
+}
+
+.button {
+  display: inline-block;
+  max-height: 50px;
+  padding: 10px;
+  margin: 3px;
+  border: 2.5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.button span {
+  text-align: center;
+}
+
+.button#add-task {
+  background-color: #47adf1;
+  color: white;
+}
+
+.button#add-section {
+  padding: 8px;
+  border-color: #d6dade;
+  color: #d6dade;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* /main */
