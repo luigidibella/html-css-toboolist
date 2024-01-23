@@ -20,7 +20,7 @@ header {
 }
 
 main div {
-  margin: 30px;
+  margin: 30px 0px;
 }
 
 main span {
@@ -49,8 +49,8 @@ header .logo img {
   max-width: 1000px;
   margin: 0 auto;
   background-color: white;
-  padding-left: 60px;
-  padding-top: 20px;
+/*   padding-left: 60px;
+ */  padding-top: 20px;
   padding-bottom: 30px;
   border-radius: 10px;
   border: 10px;
@@ -85,8 +85,9 @@ header .logo img {
 
 hr#line {
   border: 2px solid #f6f8f9;
-  margin-left: -100px;
-  margin-bottom: 40px;
+/*   margin-left: -100px;
+ */  margin-bottom: 40px;
+ min-width: 100%;
 }
 
 /* /button */
@@ -155,3 +156,14 @@ hr#line {
   background-color: #b0c926;
 }
 /* /label */
+
+/* section */
+.section-button {
+  padding-left: 90px;
+}
+
+.section-task {
+  padding-left: 90px;
+}
+
+/* /section */
